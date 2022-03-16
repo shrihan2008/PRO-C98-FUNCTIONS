@@ -5,8 +5,8 @@ def swapText():
      b=open(file2,'r')
      data_a=a.read()
      data_b=b.read()
-     a.write(data_b)
-     b.write(data_a)
+     a=(data_b,"w")
+     b=(data_a,"w")
      #with open(file1,'r') as a:
       #   data_a=a.read()
     #with open(file2,'r') as b:
